@@ -1,3 +1,5 @@
+
+import numpy as np
 def main():
 
 
@@ -36,8 +38,13 @@ def main():
 
     #Lowest & Higest rating
     def printHighestLowestMovieRating():
-        
+        arr1 = np.matrix
 
+        print(f'Original Array:\n{arr1}')
+
+        arr1_transpose = arr1.transpose()
+
+        print(f'Transposed Array:\n{arr1_transpose}')
     printHighestLowestMovieRating()
 
 main()
